@@ -1,0 +1,204 @@
+/*Reset básic */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Set default font */
+  background-image: url(./img/fondo1.webp); /* Background image */
+  color: #ffffff; /* Default text color */
+  line-height: 1.6; /* Line spacing */
+}
+
+/* Logo size */
+.logo-mass {
+  width: 200px; /* Fixed width for logo */
+}
+
+/* Header section */
+header {
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+  padding: 1rem; /* Padding inside header */
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically center items */
+  flex-wrap: wrap; /* Wrap items to next line if needed */
+}
+
+/* Navigation container */
+nav {
+  display: flex; /* Flex container */
+  margin-left: auto; /* Push nav to the right */
+}
+
+/* Unordered list styles */
+ul {
+  text-align: center; /* Center align text */
+  padding: 2rem; /* Vertical and horizontal padding */
+}
+
+/* Logo padding */
+.logo {
+  padding: 1rem; /* Padding around logo */
+}
+
+/* Navigation menu styles */
+nav ul {
+  display: flex; /* Display list items in a row */
+  gap: 20px; /* Space between menu items */
+  list-style: none; /* Remove bullet points */* Basic reset to remove default browser styles */
+* {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Include border and padding in element width/height */
+}
+
+/* Main 
+  margin-top: 1rem; /* Space above the list */
+}
+
+/* Navigation links */
+nav ul li a {
+  color: white; /* White text */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+  color: #ffdd57; /* Highlight color on hover */
+}
+
+/* Hero section (main banner) */
+.hero {
+  font-size: 250%; /* Large font size */
+  text-align: center; /* Centered text */
+  padding: 4rem 2rem; /* Top-bottom and left-right padding */
+  background-image: url(img/fondo-2-original.webp); /* Background image */
+  color: white; /* Text color */
+}
+
+/* Info section (general content) */
+.info-section {
+  padding: 2rem; /* Padding around section */
+  text-align: center; /* Center text */
+  margin: 10px; /* Outer margin */
+  background-color: #c7fcc2a6; /* Light green background with transparency */
+  color: black; /* Black text */
+}
+
+/* 'Who we are' section */
+.quienes-somos-section {
+  padding: 2rem; /* Padding */
+  text-align: center; /* Center text */
+  background-color: rgba(255, 255, 255, 0.685); /* Semi-transparent white */
+  margin: 10px; /* Margin around section */
+  color: black; /* Text color */
+}
+
+/* Specific section for 'who we are' ID */
+#quienes-somos {
+  background-color: rgba(255, 255, 255, 0.801); /* Slightly more opaque background */
+  padding: 2rem; /* Padding */
+  text-align: center; /* Center text */
+  margin: 10px; /* Margin */
+}
+
+/* Heading level 3 styles */
+h3 {
+  color: green; /* Green text */
+  font-size: 12px; /* Small font size */
+}
+
+/* Product section */
+.productos {
+  padding: 70px; /* Large padding */
+  background-color: #c7fcc2a6; /* Light green with transparency */
+  color: black; /* Black text */
+}
+
+/* Default link styles */
+a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* White text */
+}
+
+/* Heading level 4 styles */
+h4 {
+  background-color: red; /* Red background */
+  border: #222; /* Border color (not visible without style) */
+  border-radius: 20vh; /* Rounded edges */
+  width: 80px; /* Fixed width */
+  margin-left: 52px; /* Left margin */
+}
+
+/* Hover effect for h4 */
+h4:hover {
+  background-color: rgb(30, 255, 0); /* Bright green on hover */
+}
+
+/* Grid layout for product cards */
+.grid-productos {
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Space between items */
+  margin-top: 2rem; /* Top margin */
+  padding-left: auto; /* Invalid value, has no effect */
+  padding-right: auto; /* Invalid value, has no effect */
+}
+
+/* Individual product card styles */
+.producto {
+  background: white; /* White background */
+  border: 1px solid #ccc; /* Light gray border */
+  padding: 0.8rem; /* Padding inside card */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth animation on hover */
+  text-align: center; /* Center content */
+  height: 420px; /* Fixed height */
+  width: 220px; /* Fixed width */
+}
+
+/* Hover effect for product cards */
+.producto:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 6px 10px rgba(0,0,0,0.2); /* Stronger shadow */
+}
+
+/* Product images */
+.producto img {
+  width: 100%; /* Full width */
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio, crop if needed */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Footer styles */
+footer {
+  background-color: #222; /* Dark background */
+  color: white; /* White text */
+  text-align: center; /* Centered text */
+  padding: 1rem; /* Padding */
+  margin-top: 2rem; /* Space above footer */
+}
+
+/* Responsive design for tablets and small screens */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align */
+  }
+
+  .hero h2 {
+    font-size: 1.5rem; /* Smaller font size */
+  }
+}
+
+/* Responsive design for phones */
+@media (max-width: 480px) {
+  .producto img {
+    height: 120px; /* Smaller image height */
+  }
+}

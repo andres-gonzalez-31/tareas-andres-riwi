@@ -1,0 +1,409 @@
+<!DOCTYPE html> <!-- Declares the document type and version of HTML -->
+<html lang="es"> <!-- Starts the HTML document and sets the language to Spanish -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the document to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport for responsive design -->
+    <link rel="stylesheet" href="style.css"> <!-- Links to an external CSS stylesheet for styling -->
+    <meta name="description" content="Tienda online, que te permite comprar sin salir salir de casa."> <!-- Provides a description of the webpage for search engines -->
+    <meta name="keywords" content="tienda verduras productos comida canasta familiar domicilio  "> <!-- Provides keywords for search engines -->
+    <link rel="shortcut icon" href="./img/logo.com.webp" type="image/x-icon"> <!-- Links to a favicon for the website -->
+
+    <title>MASS ✓</title> <!-- Sets the title of the webpage that appears in the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links to another external CSS stylesheet for styling -->
+</head>
+
+<body>
+    
+    <!-- HEADER OF THE SITE -->
+    <header>
+        <img src="./img/logo.com.webp" alt="Logo mass" id="productos" class="logo-mass" > <!-- Displays the logo of the store -->
+        <!-- Navigation bar -->
+        <nav>
+            
+            <div id="barra-navegacion">
+                
+                    <!-- Logo or name of the store -->
+                    <h1>MASS ✓ | TIENDA ONLINE</h1> <!-- Main heading for the store -->
+                </div>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li> <!-- Link to the home section -->
+                    <li><a href="#quienes-somos">Quiénes somos</a></li> <!-- Link to the about us section -->
+                    <li><a href="#productos">Productos</a></li> <!-- Link to the products section -->
+                    <li><a href="#contacto">Contacto</a></li> <!-- Link to the contact section -->
+                </ul>
+            
+        </nav>
+    </header>
+
+    <!-- SECTION START -->
+    <section id="inicio" class="hero"> <!-- Hero section with an ID of 'inicio' -->
+        <h2>Bienvenidos a Nuestra Tienda</h2> <!-- Welcome heading -->
+        <p>Descubre los mejores productos a los mejores precios.</p> <!-- Description of the store -->
+    </section>
+
+    <!-- SECTION WHO WE ARE -->
+    <section id="productos"> <!-- Section for products with an ID of 'productos' -->
+        <h2>NUESTROS PRODUCTOS</h2> <!-- Heading for the products section -->
+
+    </section>
+
+    <!-- SECTION PRODUCTS -->
+    <section id="productos" class="productos"> <!-- Section for displaying products -->
+
+        <div class="grid-productos"> <!-- Container for the product grid -->
+            <!-- 10 Products with image and name -->
+            <div class="producto"><img src="img/tomate.webp" alt="Tomate"> <!-- Product image for tomato -->
+                <br>
+                <br>
+                <h3>TOMATE</h3> <!-- Product name -->
+                <br>
+                <p>Precio: $3.500 LB</p> <!-- Product price -->
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label> <!-- Label for quantity input -->
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" /> <!-- Input for quantity selection -->
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas"> <!-- Link to purchase the product -->
+                    <h4>Comprar</h4> <!-- Purchase button -->
+                </a>
+            </div>
+            <div class="producto"><img src="img/cebolla-roja.webp" alt="Cebolla"> <!-- Product image for onion -->
+                <br>
+                <br>
+                <h3>CEBOLLA</h3> <!-- Product name -->
+                <br>
+                <p>Precio: $4.000 LB</p> <!-- Product price -->
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label> <!-- Label for quantity input -->
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" /> <!-- Input for quantity selection -->
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas"> <!-- Link to purchase the product -->
+                    <h4>Comprar</h4> <!-- Purchase button -->
+                </a>
+            </div>
+            <div class="producto"><img src="img/aji-rojo.webp" alt="Ají rojo">
+                <br>
+                <br>
+                <h3>AJI ROJO</h3>
+                <br>
+                <p>Precio: $1.500 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+
+            <div class="producto"><img src="img/champinones-portobello.webp" alt="champinones portobello">
+                <br>
+                <br>
+                <h3>CHAMPIÑONES PORTOBELLO</h3>
+                <br>
+                <p>Precio: $18.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/Ciruela-Nacional.webp" alt="Ciruela nacional">
+                <br>
+                <br>
+                <h3>CIRUELA NACIONAL</h3>
+                <br>
+                <p>Precio: $6.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/curcuma.webp" alt="Curcuma">
+                <br>
+                <br>
+                <h3>CURCUMA</h3>
+                <br>
+                <p>Precio: $15.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/Durazno-Nacional.webp" alt="Durazno nacional">
+                <br>
+                <br>
+                <h3>DURAZNO NACIONAL</h3>
+                <br>
+                <p>Precio: $10.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/Lechuga.webp" alt="Lechuga">
+                <br>
+                <br>
+                <h3>LECHUGA</h3>
+                <br>
+                <p>Precio: $6.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/papacriollaa.webp" alt="Papa criolla">
+                <br>
+                <br>
+                <h3>PAPA CRIOLLA</h3>
+                <br>
+                <p>Precio: $5.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+
+            <div class="producto"><img src="img/Limon-Tahiti.webp" alt="Limon tahiti">
+                <br>
+                <br>
+                <h3>LIMON TAHITI</h3>
+                <br>
+                <p>Precio: $2.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/agraz.webp" alt="AGRAZ">
+                <br>
+                <br>
+                <h3>AGRAZ</h3>
+                <br>
+                <p>Precio: $3.500 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/Coliflor.webp" alt="COLIFLOR">
+                <br>
+                <br>
+                <h3>COLIFLOR</h3>
+                <br>
+                <p>Precio: $9.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/berenjena-1.webp" alt="berenjena">
+                <br>
+                <br>
+                <h3>BERENJENA</h3>
+                <br>
+                <p>Precio: $5.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+
+            <div class="producto"><img src="img/cidron.webp" alt="cidron">
+                <br>
+                <br>
+                <h3>CIDRON</h3>
+                <br>
+                <p>Precio: $2.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/Fresas.webp" alt="Fresas">
+                <br>
+                <br>
+                <h3>FRESA</h3>
+                <br>
+                <p>Precio: $7.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/Kiwi.jpg.webp" alt="kiwi">
+                <br>
+                <br>
+                <h3>KIWI</h3>
+                <br>
+                <p>Precio: $15.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/Ajo-Importado.webp" alt="Ajo importado">
+                <br>
+                <br>
+                <h3>AJO IMPORTADO</h3>
+                <br>
+                <p>Precio: $10.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/Mazorca.jpg.webp" alt="Mazorca">
+                <br>
+                <br>
+                <h3>MAZORCA</h3>
+                <br>
+                <p>Precio: $3.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/Mazorca-Desgranada.jpg.webp" alt="mazorca desgranada">
+                <br>
+                <br>
+                <h3>MAZORCA DESGRANADA</h3>
+                <br>
+                <p>Precio: $2.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+
+            <div class="producto"><img src="img/melonn.webp" alt="Melón">
+                <br>
+                <br>
+                <h3>MELÓN</h3>
+                <br>
+                <p>Precio: $7.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+            <div class="producto"><img src="img/mango-azucar.webp" alt="Mango de azucar">
+                <br>
+                <br>
+                <h3>MANGO DE AZUCAR</h3>
+                <br>
+                <p>Precio: $2.000 LB</p>
+                <br>
+                <label for="tentacles">Cantidad por libra (min 1):</label>
+                <input type="number" id="cantidad" name="cantidad" min="1" max="10" />
+                <br>
+                <br>
+                <a href="https://clientes.nequi.com.co/recargas">
+                    <h4>Comprar</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="quienes-somos" class="quienes-somos-section"> <!-- Section for "Who We Are" with an ID of 'quienes-somos' -->
+        <h2>¿Quienes somos?</h2> <!-- Heading for the "Who We Are" section -->
+        <p>Somos una empresa 100% Colombiana, dedicada a la distribución y comercialización de frutas y verduras de la
+            mejor calidad. <!-- Description of the company, stating it is 100% Colombian and its focus on quality -->
+            <br>
+            Nuestra misión es contribuir significativamente a satisfacer la demanda que tienen nuestros clientes de
+            alimentos sanos y nutritivos. <!-- Mission statement about providing healthy and nutritious food -->
+            <br>
+            Somos una agroindustria integral en donde cuidamos la calidad de nuestro producto desde la producción hasta
+            que llega a su mesa.  <!-- Description of the company's commitment to product quality from production to delivery -->
+            <br>
+            Nuestros productos son de una tierra bendita, donde el clima templado y las aguas puras</p> <!-- Description of the origin of the products -->
+    </section>
+
+    <section id="contacto" class="info-section"> <!-- Section for contact information with an ID of 'contacto' -->
+        <h2>Contacto</h2> <!-- Heading for the contact section -->
+        <p>Puedes contactarnos:</p> <!-- Prompt for contacting the company -->
+        <p>Correo: masstiendaonline@gmail.com</p> <!-- Email address for contact -->
+        <p>Telefono: 3143187355</p> <!-- Phone number for contact -->
+        <p>Instagram: @masstiendaonline </p> <!-- Instagram handle for contact -->
+    </section>
+
+    <!-- FOOTER -->
+    <footer> <!-- Footer section of the webpage -->
+        <p>&copy; 2025 Mi Tienda Online. Todos los derechos reservados.</p> <!-- Copyright notice for the year 2025 -->
+    </footer>
+
+
+</body>
+
+</html>
